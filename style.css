@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  /* 下記の説明 空の要素なので、高さの定義が必要です。 */
+  height: 1000px;
+  background-image: url("./img/mainimage_sp.jpg");
+  /* 下記の説明　▼描画領域全体を覆い尽くすまで拡大・縮小させる場合 */
+  background-size: cover;
+}
+
+.header-flexbox {
+  display: flex;
+  /* 下記の説明　スペースを等間隔に並べる */
+  justify-content: space-between;
+  /* 下記の説明　feaderを固定する　上部に余白ができるのでpaddinngとmarginを修正する */
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.header-logo-img {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* ※下記の説明　liの要素の場所の移動をするには下記で指定する */
+.header-list {
+  /* 下記の説明　文字を太くする */
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+}
+
+.header-list li {
+  list-style: none;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header-font {
+  text-align: left;
+  /* 下記の説明　hederを固定する時に無駄な余白を削除できた */
+  padding-top: 20%;
+  margin-left: 50px;
+}
+
+.header-font-co-creation {
+  font-size: 80px;
+}
+
+.header-font p {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+.realhomepage {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.realhomepage h2{
+  opacity: 0.5;
+}
+
+.mission-tittle {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.mission-logo-layout {
+  text-align: center;
+}
+
+.mission-logo-img {
+  width: 10%;
+  height: auto;
+}
+
+.misson-font {
+  text-align: center;
+}
+
+.misson-font-red {
+  color: red;
+  font-size: 20px;
+}
+
+.ourservice-font {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.mainservice {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.mainservice-img {
+  width: 45%;
+  height: auto;
+}
+
+.mainservice-font {
+  padding-right: 5%;
+}
+
+.mainservice-font-red {
+  color: red;
+  font-weight: bold;
+}
+
+.human-resources-ordinance {
+  background-color: #EEEEEE;
+  padding: 10px 10px;
+}
+
+.contact {
+  background-color: black;
+  width: 45%;
+  height: auto;
+}
+
+.contact-font {
+  color: White;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.otherservice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otherservice-font {
+  padding-right: 5%;
+}
+
+.otherservice-font-red {
+  color: red;
+  font-weight: bold;
+}
+
+.otherservice-img {
+  width: 50%;
+  height: auto;
+}
+
+.otherservice {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.introduction {
+  background-color: #EEEEEE;
+  padding: 10px 10px;
+}
+
+.entry {
+  background-color: black;
+  width: 50%;
+  height: auto;
+}
+
+.entry-fot {
+  color: White;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.about {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.about-fontopacity {
+  opacity: 0.5;
+}
+
+.about-img {
+  width: 40%;
+  height: auto;
+}
+
+.about-table-layout {
+  padding-top: 100px;
+}
+
+tr {
+  height: 50px;
+}
+
+th {
+  padding-left: 3%;
+}
+
+/* 下記の説明　テーブルレイアウト下線のみを引いて全て消す */
+table, td, th {
+  border-bottom: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.member {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.member h5 {
+  opacity: 0.5;
+}
+
+.member-img {
+  width: 10%;
+  height: auto;
+  border-radius: 130px;
+}
+
+.portfolio {}
+
+.portfolio h1, h2 {
+  font-family: fantasy;
+}
+
+.portfolio h2 {
+  position: relative;
+  color: #6eb0f9;
+  line-height: 1.4;
+  -webkit-box-reflect: below -10px -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6));
+}
+
+.uranai {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.uranai-video-layout {}
+
+.uranai-font-layout {
+  padding-left: 100px;
+}
+
+.rakugaki {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.rakugaki-font-layout {
+  padding-right: 100px;
+}
+
+.rakugaki-video-layout {}
+
+.stopwatch {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch-video-layout {}
+
+.stopwatch-font-layout {
+  padding-left: 100px;
+}
+
+.jannkenn {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.jankenn-font-layout {
+  padding-right: 100px;
+}
+
+.jankenn-video-layout {}
+
+video {
+  width: 500px;
+  height: 500px;
+}
+
+.clubactivities {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.clubactivities img {
+  width: 500px;
+  height: 200px;
+}
+
+.clubactivities h2 {
+  font-family: fantasy;
+}
+
+.access {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.access h5 {
+  opacity: 0.5;
+}
+
+.map-font {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 400px;
+}
+
+.news {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom:200px ;
+}
+
+.news-img {
+  height: 35px;
+}
+
+.news-font {
+  text-align: center;
+}
+
+.news h5 {
+  opacity: 0.5;
+}
+
+footer {
+  text-align: center;
+  background-color: #EEEEEE;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.footer-logo-img {
+  height: 35px;
+  margin: 100px 0 0 0;
+}
