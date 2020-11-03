@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+/* テストです */
+
 
 body {
   margin: 0;
@@ -129,6 +131,7 @@ header {
   background-color: black;
   width: 45%;
   height: auto;
+
 }
 
 .contact-font {
