@@ -74,22 +74,17 @@ header {
   opacity: 0.5;
 }
 
-.mission-tittle {
+.mission{
   text-align: center;
-  padding-top: 200px;
 }
 
-.mission-logo-layout {
-  text-align: center;
+.mission-tittle {
+  padding-top: 200px;
 }
 
 .mission-logo-img {
   width: 10%;
   height: auto;
-}
-
-.misson-font {
-  text-align: center;
 }
 
 .misson-font-red {
@@ -199,6 +194,10 @@ header {
 
 .about-table-layout {
   padding-top: 100px;
+}
+
+.table-layout-size{
+  width: 90%;
 }
 
 tr {
@@ -339,7 +338,7 @@ video {
 }
 
 .news-font {
-  text-align: center;
+
 }
 
 .news h5 {
@@ -357,4 +356,21 @@ footer {
 .footer-logo-img {
   height: 35px;
   margin: 100px 0 0 0;
+}
+
+#page_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+#page_top a {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
 }

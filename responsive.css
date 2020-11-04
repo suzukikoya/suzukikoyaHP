@@ -1,9 +1,94 @@
 /* タブレット向けレイアウト */
-@media (max-width: 1000px) {
-
-}
+@media (max-width: 1000px) {}
 
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
+  .header-logo-img {
+    height: 30px;
+  }
 
+  .header-list{
+    /* 下記の説明　ヘッダーリストを見えなくする */
+    display: none;
+  }
+
+  .header-font-co-creation{
+    font-size: 30px;
+  }
+
+  .header-font p{
+      font-size: 20px;
+  }
+  .realhomepage {
+    text-align: left;
+  }
+
+  .mission {
+    text-align: left;
+  }
+
+  .mainservice {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mainservice-img {
+    width: 100%;
+  }
+
+  .otherservice {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .otherservice-img {
+    width: 100%;
+  }
+
+  .about-img {
+    width: 90%;
+    height: auto;
+  }
+
+  .uranai {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stopwatch {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .clubactivities {
+    text-align: left;
+  }
+
+  .clubactivities img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .access {
+    text-align: left;
+    padding-top: 200px;
+  }
+
+  .map-font {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  .news {
+    text-align: left;
+  }
 }

@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="responsive.css">
   <!-- 下記の説明　ライブラリ読み込みのタグより下に処理を書く-->
   <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+  <!-- 下記の説明　topに戻るボタン　jq -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -133,7 +135,7 @@
     <p class="about-fontopacity">会社概要</p>
     <img class="about-img" src="./img/about01.jpg" alt="">
     <div class="about-table-layout">
-      <table border="1" align="center" width="50%">
+      <table class="table-layout-size" border="1" align="center" width="50%">
         <tr align="left">
           <th style="border-style: none none none none">社名</th>
           <td style="border-style: none none none none">Carryz</td>
@@ -319,7 +321,7 @@
       <p>株式会社 Carryz</br>
         〒104-0041 東京都中央区新富1-8-9 THE GATE GINZA EAST 6F</br>
         TEL：03-6280-4035（代表）FAX：03-6280-4549</p>
-      <p>プライバシー　お問い合わせa</p>
+      <p>プライバシー　お問い合わせ</p>
     </div>
   </footer>
 
@@ -337,8 +339,32 @@
         return false;
       });
     });
+
+    $(function(){
+      var pagetop = $('#page_top');
+      // ボタン非表示
+      pagetop.hide();
+      // 100px スクロールしたらボタン表示
+      $(window).scroll(function () {
+         if ($(this).scrollTop() > 100) {
+              pagetop.fadeIn();
+         } else {
+              pagetop.fadeOut();
+         }
+      });
+      pagetop.click(function () {
+         $('body, html').animate({ scrollTop: 0 }, 500);
+         return false;
+      });
+    });
+
   </script>
   <!-- <script src="main.js"></script> -->
+
+
+  <!-- 下記の説明　戻るボタン -->
+  <div id="page_top"><a href="#">TOP</a></div>
+
 </body>
 
 </html>
