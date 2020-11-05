@@ -3,55 +3,75 @@
 
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
-  .header-logo-img {
+
+header {}
+
+.header-logo-img {
     height: 30px;
   }
 
-  .header-list{
+.header-list {
     /* 下記の説明　ヘッダーリストを見えなくする */
     display: none;
   }
 
-  .header-font-co-creation{
+.header-font-co-creation {
     font-size: 30px;
   }
 
-  .header-font p{
-      font-size: 20px;
+.header-font p {
+    font-size: 20px;
   }
-  .realhomepage {
+
+.realhomepage {
     text-align: left;
   }
 
-  .mission {
+.mission {
     text-align: left;
   }
 
-  .mainservice {
+.mainservice {
     display: flex;
     /* 下記の説明　折り返して表示する */
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
   }
 
-  .mainservice-img {
+.mainservice-img {
     width: 100%;
   }
 
-  .otherservice {
+.otherservice {
     display: flex;
     /* 下記の説明　折り返して表示する */
     flex-wrap: wrap;
-    justify-content: center;
+
   }
 
-  .otherservice-img {
-    width: 100%;
-  }
+.otherservice{
+  display: flex;
+  /* 下記の説明　折り返して表示する */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.otherservice-font{
+  order: 2;
+}
+
+.otherservice-img{
+  order:1;
+width: 100%;
+}
 
   .about-img {
     width: 90%;
     height: auto;
+  }
+
+  .member{
+    text-align: left;
   }
 
   .uranai {
@@ -61,12 +81,51 @@
     justify-content: center;
   }
 
+  .rakugaki {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rakugaki-font-layout {
+    /* 下記の説明　並び順の変更 */
+    order: 2;
+    padding-left: 100px;
+  }
+
+  .rakugaki-video-layout {
+    /* 下記の説明　並び順の変更 */
+    order: 1;
+  }
+
   .stopwatch {
     display: flex;
     /* 下記の説明　折り返して表示する */
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .jannkenn {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .jankenn-font-layout {
+    order: 2;
+    padding-left: 100px;
+  }
+
+  .jankenn-video-layout {
+    order: 1;
+  }
+
+video{
+  width: 100%;
+  height: 500px;
+}
 
   .clubactivities {
     text-align: left;
