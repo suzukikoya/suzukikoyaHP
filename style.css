@@ -10,7 +10,8 @@ body {
 
 header {
   /* 下記の説明 空の要素なので、高さの定義が必要です。 */
-  height: 1000px;
+  /* 下記の説明　最低の高さがここまでだよ */
+  min-height: 50vh;
   background-image: url("./img/mainimage_sp.jpg");
   /* 下記の説明　▼描画領域全体を覆い尽くすまで拡大・縮小させる場合 */
   background-size: cover;
@@ -74,6 +75,12 @@ header {
 
 .realhomepage h2{
   opacity: 0.5;
+}
+
+.hrtop{
+  border-top: thick solid black;
+  border-width: 5px;
+  /* padding-left: 10px; */
 }
 
 .mission{
@@ -296,7 +303,7 @@ table {
 .jankenn-video-layout {}
 
 video {
-  width: 100%;
+  width: 500px;
   height: 500px;
 }
 

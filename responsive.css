@@ -4,7 +4,12 @@
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
 
-header {}
+header {
+  /* background-size:contain;
+  height: auto; */
+  /* background-size: cover; */
+
+}
 
 .header-logo-img {
     height: 30px;
