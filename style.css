@@ -52,10 +52,15 @@ header {
   padding-right: 5px;
 }
 
+.header-img-block{
+  /* 下記の説明　表示させないよ */
+  display: none;
+}
+
 .header-font {
   text-align: left;
   /* 下記の説明　hederを固定する時に無駄な余白を削除できた */
-  padding-top: 20%;
+  /* padding-top: 100%; */
   margin-left: 10%;
 }
 

@@ -6,6 +6,8 @@
   header {
     /* 下記の説明　単位重要 */
     min-height: 60vh;
+
+    background:none;
   }
 
   .header-logo-img {
@@ -17,8 +19,22 @@
     display: none;
   }
 
+.header-img-block{
+
+  /* 下記の説明　ブロック要素で表示させるよ */
+  display: block;
+  width: 10%;
+}
+
   .header-font-co-creation {
     font-size: 30px;
+  }
+
+  .header-font {
+    text-align: left;
+    /* 下記の説明　hederを固定する時に無駄な余白を削除できた */
+    padding-top: 0%;
+    margin-left: 0%;
   }
 
   .header-font p {
