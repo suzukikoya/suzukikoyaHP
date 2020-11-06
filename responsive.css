@@ -3,84 +3,125 @@
 
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
+  header {
+    /* 下記の説明　単位重要 */
+    min-height: 60vh;
+  }
 
-header {
-  /* background-size:contain;
-  height: auto; */
-  /* background-size: cover; */
-
-}
-
-.header-logo-img {
+  .header-logo-img {
     height: 30px;
   }
 
-.header-list {
+  .header-list {
     /* 下記の説明　ヘッダーリストを見えなくする */
     display: none;
   }
 
-.header-font-co-creation {
+  .header-font-co-creation {
     font-size: 30px;
   }
 
-.header-font p {
+  .header-font p {
     font-size: 20px;
   }
 
-.realhomepage {
+  .items-hr {
+    margin-left: 3%;
+    width: 10%;
+  }
+
+  .realhomepage {
+    text-align: left;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .mission {
+    text-align: left;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .ourservice {
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .ourservice-font {
     text-align: left;
   }
 
-.mission {
-    text-align: left;
-  }
-
-.mainservice {
+  .mainservice {
     display: flex;
     /* 下記の説明　折り返して表示する */
     flex-wrap: wrap;
-    /* justify-content: center; */
   }
 
-.mainservice-img {
+  .mainservice-img {
     width: 100%;
   }
 
-.otherservice {
+  .mainservice-font {}
+
+  .otherservice {
     display: flex;
     /* 下記の説明　折り返して表示する */
     flex-wrap: wrap;
-
+    justify-content: center;
+    /* 下記の説明　PC版で指定してあげているのを0にしてあげよう */
+    padding-right: 0;
+    padding-left: 0;
   }
 
-.otherservice{
-  display: flex;
-  /* 下記の説明　折り返して表示する */
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .otherservice-font {
+    order: 2;
+  }
 
-.otherservice-font{
-  order: 2;
-}
+  .otherservice-img {
+    order: 1;
+    width: 100%;
+    /* height: auto; */
+  }
 
-.otherservice-img{
-  order:1;
-width: 100%;
-}
+  .entry {
+    width: 60%;
+  }
+
+  .about-font {
+    text-align: left;
+  }
 
   .about-img {
     width: 90%;
     height: auto;
   }
 
-  .member{
+  .member {
     text-align: left;
+    margin-left: 3%;
+  }
+
+  .member-img-layout {
+    text-align: center;
+  }
+
+  .member-img {
+    width: 50%;
+    height: auto;
+  }
+
+  .member-name-hr {
+    margin-left: 3%;
+    width: 5%;
+  }
+
+  .portfolio {
+    margin-right: 3%;
+    margin-left: 3%;
   }
 
   .uranai {
-    display: flex;
+    #ffaaaa display: flex;
     /* 下記の説明　折り返して表示する */
     flex-wrap: wrap;
     justify-content: center;
@@ -127,13 +168,15 @@ width: 100%;
     order: 1;
   }
 
-video{
-  width: 100%;
-  height: 500px;
-}
+  video {
+    width: 100%;
+    height: 500px;
+  }
 
   .clubactivities {
     text-align: left;
+    margin-right: 3%;
+    margin-left: 3%;
   }
 
   .clubactivities img {
@@ -144,6 +187,8 @@ video{
   .access {
     text-align: left;
     padding-top: 200px;
+    margin-right: 3%;
+    margin-left: 3%;
   }
 
   .map-font {
@@ -154,5 +199,7 @@ video{
 
   .news {
     text-align: left;
+    margin-right: 3%;
+    margin-left: 3%;
   }
 }

@@ -11,7 +11,9 @@ body {
 header {
   /* 下記の説明 空の要素なので、高さの定義が必要です。 */
   /* 下記の説明　最低の高さがここまでだよ */
-  min-height: 50vh;
+  /* min-height: 50vh; */
+  min-height: 100vh;
+  /* height: 1000px; */
   background-image: url("./img/mainimage_sp.jpg");
   /* 下記の説明　▼描画領域全体を覆い尽くすまで拡大・縮小させる場合 */
   background-size: cover;
@@ -54,7 +56,7 @@ header {
   text-align: left;
   /* 下記の説明　hederを固定する時に無駄な余白を削除できた */
   padding-top: 20%;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 .header-font-co-creation {
@@ -67,20 +69,22 @@ header {
   font-weight: bold;
 }
 
+
+.items-hr{
+  width: 5%;
+
+}
+
 .realhomepage {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
+
+
 
 .realhomepage h2{
   opacity: 0.5;
-}
-
-.hrtop{
-  border-top: thick solid black;
-  border-width: 5px;
-  /* padding-left: 10px; */
 }
 
 .mission{
@@ -88,7 +92,7 @@ header {
 }
 
 .mission-tittle {
-  padding-top: 200px;
+  padding-top: 10%;
 }
 
 .mission-logo-img {
@@ -102,7 +106,7 @@ header {
 }
 
 .ourservice-font {
-  padding-top: 200px;
+  padding-top: 10%;
   text-align: center;
 }
 
@@ -189,7 +193,7 @@ header {
 
 .about {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 10%;
 }
 
 .about-fontopacity {
@@ -202,7 +206,7 @@ header {
 }
 
 .about-table-layout {
-  padding-top: 100px;
+  padding-top: 5%;
 }
 
 .table-layout-size{
@@ -228,7 +232,7 @@ table {
 
 .member {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 10%;
 }
 
 .member h5 {
@@ -309,7 +313,7 @@ video {
 
 .clubactivities {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 10%;
 }
 
 .clubactivities img {
@@ -323,7 +327,7 @@ video {
 
 .access {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 10%;
 }
 
 .access h5 {
@@ -338,8 +342,8 @@ video {
 
 .news {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom:200px ;
+  padding-top: 10%;
+  padding-bottom:10% ;
 }
 
 .news-img {
@@ -359,7 +363,7 @@ footer {
   background-color: #EEEEEE;
   width: 100%;
   height: auto;
-  padding-bottom: 100px;
+  padding-bottom: 10%;
 }
 
 .footer-logo-img {

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!-- /* テストです */ -->
 
 <head>
   <meta charset="utf-8">
@@ -16,8 +15,6 @@
 </head>
 
 <body>
-
-<!-- テスト ああああああgitテスト-->
 
   <header>
     <div class="header-flexbox">
@@ -46,8 +43,10 @@
   </header>
 
   <div class="realhomepage">
-    <!-- <hr aligin="center" width="5%"> -->
-    <h1 class=hrtop>Real homepage</h1>
+
+    <h1 class="items-font">
+      <hr class="items-hr">Real homepage
+    </h1>
     <h2>初めに</h2>
     <p>こちらのHPは株式会社CarryzのHPを模写し</br>
       オリジナルポートフォリオに作り替えたものとなります。</br>
@@ -57,8 +56,9 @@
 
   <div class="mission" id="mission">
     <div class="mission-tittle">
-      <hr aligin="center" width="5%">
-      <h1>MISSION</h1>
+      <h1>
+        <hr class="items-hr">MISSION
+      </h1>
     </div>
     <div class="mission-logo-layout">
       <img class="mission-logo-img" src="./img/concept.png" alt="">
@@ -73,8 +73,9 @@
 
   <div class="ourservice" id="ourservice">
     <div class="ourservice-font">
-      <hr aligin="center" width="5%">
-      <h1>OURSERVICE</h1>
+      <h1>
+        <hr class="items-hr">OURSERVICE
+      </h1>
     </div>
     <div class="mainservice">
       <img class="mainservice-img" src="./img/point01.jpg" alt="">
@@ -90,7 +91,7 @@
           敢えてIT人材を社員として抱えることで企業変革に向けた強い意識と</br>
           スキルを醸成し、コミットメントの高いITスペシャリスト集団として、</br>
           より確実できめ細やかなサービスを提供します。</p>
-      <div class="human-resources-ordinance">
+        <div class="human-resources-ordinance">
           <p>人材例</p>
           <p>RPAエンジニア（Uipath、WinActor、BizRobo　ほか）</br>
             アプリケーションエンジニア（Web系、オープン系、汎用機　各種開発導入支援）</br>
@@ -132,9 +133,12 @@
   </div>
 
   <div class="about" id="about">
-    <hr aligin="center" width="5%">
-    <h1>ABOUT</h1>
+    <div class="about-font">
+    <h1>
+      <hr class="items-hr">ABOUT
+    </h1>
     <p class="about-fontopacity">会社概要</p>
+    </div>
     <img class="about-img" src="./img/about01.jpg" alt="">
     <div class="about-table-layout">
       <table class="table-layout-size" border="1" align="center" width="50%">
@@ -196,17 +200,21 @@
   </div>
 
   <div class="member" id="member">
-    <hr aligin="center" width="5%">
-    <h1>MEMBER</h1>
+
+    <h1>
+      <hr class="items-hr">MEMBER
+    </h1>
     <h5>従業員</h5>
+    <div class="member-img-layout">
     <img class="member-img" src="./img/koyafot.jpeg" alt="">
-    <h3>K.suzuki</h3>
+    </div>
+    <h3><hr class="member-name-hr" color="red">K.suzuki</h3>
     <p>#エンジニア</p>
     <p>下記は成果物一覧です</p>
   </div>
 
   <div class="portfolio">
-    <hr aligin="center" width="80%" color="red">
+    <hr aligin="center" width="80%" >
     <div class="uranai">
       <div class="uranai-video-layout">
         <video class="uranai-video" src="./video/uranai_v.mov" controls autoplay loop muted poster="posterimage.jpg">
@@ -273,8 +281,9 @@
   </div>
 
   <div class="clubactivities">
-    <hr aligin="center" width="5%">
-    <h1>member Other activities</h1>
+    <h1>
+      <hr class="items-hr">member Other activities
+    </h1>
     <div class="morningactivity">
       <h2>I always study for two hours every day</h2>
       <img class="morningactivity-img" src="./img/coding.png" alt="朝活の写真">
@@ -286,8 +295,9 @@
   </div>
 
   <div class="access" id="#access">
-    <hr aligin="center" width="5%">
-    <h1>ACCESS</h1>
+    <h1>
+      <hr class="items-hr">ACCESS
+    </h1>
     <h5>本社アクセス</h5>
     <div class="gmap">
       <iframe
@@ -303,8 +313,9 @@
   </div>
 
   <div class="news" id="news">
-    <hr aligin="center" width="5%">
-    <h1>NEWS</h1>
+    <h1>
+      <hr class="items-hr">NEWS
+    </h1>
     <h5>お知らせ</h5>
     <img class="news-img" src="./img/logo.png" alt="">
     <h5>2019.1.7</h5>
@@ -342,24 +353,25 @@
       });
     });
 
-    $(function(){
+    $(function() {
       var pagetop = $('#page_top');
       // ボタン非表示
       pagetop.hide();
       // 100px スクロールしたらボタン表示
-      $(window).scroll(function () {
-         if ($(this).scrollTop() > 100) {
-              pagetop.fadeIn();
-         } else {
-              pagetop.fadeOut();
-         }
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+          pagetop.fadeIn();
+        } else {
+          pagetop.fadeOut();
+        }
       });
-      pagetop.click(function () {
-         $('body, html').animate({ scrollTop: 0 }, 500);
-         return false;
+      pagetop.click(function() {
+        $('body, html').animate({
+          scrollTop: 0
+        }, 500);
+        return false;
       });
     });
-
   </script>
   <!-- <script src="main.js"></script> -->
 
