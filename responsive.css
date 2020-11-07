@@ -23,8 +23,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333;
-  color: #fff;
+  background: white;
+  /* 下記の説明　文字の色を指定してあげているからhtmlで<i></i>の中に文字を入力してあげる(今回は文字コードを指定している) */
+  color: red;
 }
 
 /*----------------------------
