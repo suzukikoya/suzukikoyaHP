@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
   <header>
     <div class="header-flexbox">
       <div class="header-log-flexbox">
@@ -36,7 +35,7 @@
     </div>
     <div class="header-font">
       <div class="header-img-block">
-        <img src="./img/mainimage_sp.jpg" alt="">
+        <img class="header-img" src="./img/mainimage_sp.jpg" alt="">
       </div>
       <h1 class="header-font-co-creation ">共生/co-creation</h1>
       <p>Itの力で企業と人の成長を支え、</br>
@@ -46,7 +45,6 @@
   </header>
 
   <div class="realhomepage">
-
     <h1 class="items-font">
       <hr class="items-hr">Real homepage
     </h1>
@@ -56,7 +54,6 @@
       ※CarryzHP(公式)は下記の画像または<a href="https://www.carryz.jp/" 　target="_blank">こちら</a>よりご確認ください</p>
     <a href="https://www.carryz.jp/" 　target="_blank"><img class="footer-logo-img" src="./img/logo.png" alt="Caryzロゴ"></a>
   </div>
-
   <div class="mission" id="mission">
     <div class="mission-tittle">
       <h1>
@@ -137,10 +134,10 @@
 
   <div class="about" id="about">
     <div class="about-font">
-    <h1>
-      <hr class="items-hr">ABOUT
-    </h1>
-    <p class="about-fontopacity">会社概要</p>
+      <h1>
+        <hr class="items-hr">ABOUT
+      </h1>
+      <p class="about-fontopacity">会社概要</p>
     </div>
     <img class="about-img" src="./img/about01.jpg" alt="">
     <div class="about-table-layout">
@@ -203,21 +200,22 @@
   </div>
 
   <div class="member" id="member">
-
     <h1>
       <hr class="items-hr">MEMBER
     </h1>
     <h5>従業員</h5>
     <div class="member-img-layout">
-    <img class="member-img" src="./img/koyafot.jpeg" alt="">
+      <img class="member-img" src="./img/koyafot.jpeg" alt="">
     </div>
-    <h3><hr class="member-name-hr" color="red">K.suzuki</h3>
+    <h3>
+      <hr class="member-name-hr" color="red">K.suzuki
+    </h3>
     <p>#エンジニア</p>
     <p>下記は成果物一覧です</p>
   </div>
 
   <div class="portfolio">
-    <hr aligin="center" width="80%" >
+    <hr aligin="center" width="80%">
     <div class="uranai">
       <div class="uranai-video-layout">
         <video class="uranai-video" src="./video/uranai_v.mov" controls autoplay loop muted poster="posterimage.jpg">
@@ -342,43 +340,7 @@
   </footer>
 
   <!-- 下記の説明　スムーススクロール -->
-  <script type="text/javascript">
-    $(function() {
-      $('a[href^="#"]').click(function() {
-        var speed = 500;
-        var href = $(this).attr("href");
-        var target = $(href == "#" || href == "" ? 'html' : href);
-        var position = target.offset().top;
-        $("html, body").animate({
-          scrollTop: position
-        }, speed, "swing");
-        return false;
-      });
-    });
-
-    $(function() {
-      var pagetop = $('#page_top');
-      // ボタン非表示
-      pagetop.hide();
-      // 100px スクロールしたらボタン表示
-      $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) {
-          pagetop.fadeIn();
-        } else {
-          pagetop.fadeOut();
-        }
-      });
-      pagetop.click(function() {
-        $('body, html').animate({
-          scrollTop: 0
-        }, 500);
-        return false;
-      });
-    });
-  </script>
-  <!-- <script src="main.js"></script> -->
-
-
+  <script type="text/javascript" src="main.js"></script>
   <!-- 下記の説明　戻るボタン -->
   <div id="page_top"><a href="#">TOP</a></div>
 

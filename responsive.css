@@ -23,7 +23,11 @@
 
   /* 下記の説明　ブロック要素で表示させるよ */
   display: block;
-  width: 10%;
+}
+
+.header-img{
+  /* 下記の説明　widthで横幅を指定してあげないとはみ出しちゃうよ */
+  width: 100%;
 }
 
   .header-font-co-creation {
@@ -218,4 +222,5 @@
     margin-right: 3%;
     margin-left: 3%;
   }
+
 }

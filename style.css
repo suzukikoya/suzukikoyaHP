@@ -20,7 +20,6 @@ header {
 }
 
 
-
 .header-flexbox {
   display: flex;
   /* 下記の説明　スペースを等間隔に並べる */
@@ -60,7 +59,7 @@ header {
 .header-font {
   text-align: left;
   /* 下記の説明　hederを固定する時に無駄な余白を削除できた */
-  /* padding-top: 100%; */
+  padding-top: 20%;
   margin-left: 10%;
 }
 
@@ -233,6 +232,10 @@ table, td, th {
 
 table {
   border-collapse: collapse;
+}
+
+.member-name-hr {
+  width: 10%;
 }
 
 .member {
