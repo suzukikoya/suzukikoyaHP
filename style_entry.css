@@ -5,3 +5,8 @@
 body {
   margin: 0;
 }
+
+header{
+  background:none;
+  background-image: url("./img/mainimage_sp.jpg");
+}

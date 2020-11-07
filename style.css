@@ -34,6 +34,11 @@ header {
   margin-top: 10px;
 }
 
+/* 下記の説明　スマホ用のハンバーガーメニューの「アイコン」を非表示にする */
+.menu-btn{
+  display: none;
+}
+
 /* 下記の説明　スマホ用のハンバーガーメニューを非表示にする */
 .menu{
   display: none;
