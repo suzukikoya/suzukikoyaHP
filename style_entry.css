@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -6,7 +6,66 @@ body {
   margin: 0;
 }
 
-header{
-  background:none;
-  background-image: url("./img/mainimage_sp.jpg");
+header {
+  min-height: 40vh;
+  background: none;
+  background-image: url("./entry_img/catch_form.jpg");
+  background-size: cover;
+  width: 100%;
+  /* 下記の説明　ブロックの内側に余白を作るよ */
+  margin-top: 5%;
+}
+
+.career-items {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.career-items-font-second {
+  background-color: #EEEEEE;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* width: 50%; */
+}
+
+.service-items {
+  text-align: left;
+  margin: 15%;
+}
+
+.service-items-hr {
+  width: 5%;
+  /* 下記の説明　ボーダーラインの位置の変更 */
+  margin-left: 3%;
+}
+
+.service-items-table {
+  /* 下記の説明　中央寄席にできない */
+  text-align: center;
+}
+
+.service-items-table-layout {
+  /* 下記の説明　斜線で囲む処理 */
+  border-collapse: collapse;
+  width: 80%;
+  /* 下記の説明　table自体が中央寄席になる */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border: solid 1px #333;
+  /* 線の種類 太さ 色 */
+}
+
+.service-items-table-font {
+  width: 30%;
+  text-align: left;
+}
+
+.service-items-table-input {
+  width: 70%;
+  text-align: left;
 }
