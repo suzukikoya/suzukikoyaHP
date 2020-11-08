@@ -19,6 +19,7 @@ header {
 .career-items {
   text-align: center;
   padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .career-items-font-second {
@@ -27,7 +28,45 @@ header {
   margin-right: 15%;
   padding-top: 1%;
   padding-bottom: 1%;
-  /* width: 50%; */
+}
+
+.medium-item {}
+
+.medium-item-fast {
+  display: flex;
+  justify-content: center;
+}
+
+.medium-item-font-fast {
+  width: 50%;
+}
+
+.medium-item-second {
+  display: flex;
+  justify-content: center;
+}
+
+.medium-item-font-second {
+  width: 50%;
+}
+
+.medium-item-third {
+  display: flex;
+  justify-content: center;
+}
+
+.medium-item-font-third {
+  width: 50%;
+}
+
+.medium-item-forth {
+  display: flex;
+  justify-content: center;
+}
+
+.medium-item-font-forth {
+  width: 50%;
+  margin-right: 20%;
 }
 
 .service-items {
@@ -49,15 +88,16 @@ header {
 .service-items-table-layout {
   /* 下記の説明　斜線で囲む処理 */
   border-collapse: collapse;
-  width: 80%;
+  width: 60%;
   /* 下記の説明　table自体が中央寄席になる */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
-th, td {
-  border: solid 1px #333;
+/* 下記の説明　tableも入れてあげないと一番下の線が消えないよ */
+table, th, td {
   /* 線の種類 太さ 色 */
+  /* border: solid 1px #333; */
+  border: none;
 }
 
 .service-items-table-font {
@@ -68,4 +108,9 @@ th, td {
 .service-items-table-input {
   width: 70%;
   text-align: left;
+}
+
+.submitbtn {
+  text-align: center;
+  margin: 3% 0;
 }
