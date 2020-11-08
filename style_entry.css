@@ -71,7 +71,9 @@ header {
 
 .service-items {
   text-align: left;
-  margin: 15%;
+  margin-left:15%;
+  margin-right:15%;
+  margin-top: 15%;
 }
 
 .service-items-hr {
@@ -101,7 +103,7 @@ table, th, td {
 }
 
 .service-items-table-font {
-  width: 30%;
+  width: 20%;
   text-align: left;
 }
 
@@ -110,7 +112,26 @@ table, th, td {
   text-align: left;
 }
 
-.submitbtn {
+.service-items-table-input-name{
+  width: 30%;
+  height: 30px;
+}
+
+.service-items-table-input-m{
+  width: 50%;
+  height: 30px;
+}
+
+.service-items-table-input-tell{
+    width: 40%;
+    height: 30px;
+}
+
+.submitbtn-layout{
   text-align: center;
   margin: 3% 0;
+}
+
+.submitbtn{
+  height: 30px;
 }
