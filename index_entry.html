@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="style_entry.css">
   <link rel="stylesheet" href="responsive_entry.css">
 
+  <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+  <!-- 下記の説明　topに戻るボタン　jq -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -20,7 +24,19 @@
       <div class="header-log-flexbox">
         <img class="header-logo-img" src="./img/logo.png" alt="">
       </div>
-
+      <!-- 下記の説明　スマホ用のハンバーガーメニュー <i>文字コードを直接指定してあげる</i>-->
+      <div class="menu-btn">
+        <i class="fa fa-bars" aria-hidden="true">&#x2261;</i>
+      </div>
+      <div class="menu">
+        <div class="menu__item"><a href="#mission">MISSON</a></div>
+        <div class="menu__item"><a href="#ourservice">OURSERVICE</a></div>
+        <div class="menu__item"><a href="#about">ABOUT</a></div>
+        <div class="menu__item"><a href="#member">MEMBER</a></div>
+        <div class="menu__item"><a href="#access">ACCESS</a></div>
+        <div class="menu__item"><a href="#news">NEWS</a></div>
+        <div class="menu__item"><a href="#contact">CONTACT</a></div>
+      </div>
       <div class="header-list">
         <ul>
           <!-- 下記の説明　ページ内アンカー　ページ内で遷移する -->
@@ -45,7 +61,7 @@
       <hr class="items-hr">キャリア構築支援サービス『makeCareer』
     </h1>
     <div class="career-items-img">
-      <img  class="career-items-img-layout" src="./entry_img/carreer.jpg" alt="キャリア支援サービスの写真">
+      <img class="career-items-img-layout" src="./entry_img/carreer.jpg" alt="キャリア支援サービスの写真">
     </div>
     <div class="career-items-font">
       <div class="career-items-font-fast">
@@ -129,7 +145,7 @@
   <div class="service-items-table">
     <table class="service-items-table-layout">
       <tr>
-        <td class="service-items-table-font">お名前※必須</td>
+        <td class="service-items-table-font">お名前<span>※必須</span></td>
         <td class="service-items-table-input"> <input class="service-items-table-input-name" type="text" name="" value=""> <input class="service-items-table-input-name" type="text" name="" value=""> </td>
       </tr>
       <tr>
@@ -137,15 +153,15 @@
         <td class="service-items-table-input"><input class="service-items-table-input-name" type="text" name="" value=""> <input class="service-items-table-input-name" type="text" name="" value=""></td>
       </tr>
       <tr>
-        <td class="service-items-table-font">メールアドレス※必須</td>
+        <td class="service-items-table-font">メールアドレス<span>※必須</span></td>
         <td class="service-items-table-input"><input class="service-items-table-input-m" type="text" name="" value=""></td>
       </tr>
       <tr>
-        <td class="service-items-table-font">確認のためにもう一度※必須</td>
+        <td class="service-items-table-font">確認のためにもう一度<span>※必須</span></td>
         <td class="service-items-table-input"><input class="service-items-table-input-m" type="text" name="" value=""></td>
       </tr>
       <tr>
-        <td class="service-items-table-font">電話番号※必須</td>
+        <td class="service-items-table-font">電話番号<span>※必須</span></td>
         <td class="service-items-table-input"><input class="service-items-table-input-tell" type="text" name="" value=""></td>
       </tr>
     </table>

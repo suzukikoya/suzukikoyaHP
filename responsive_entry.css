@@ -1,29 +1,179 @@
 /* タブレット向けレイアウト */
-@media (max-width: 1000px) {
-
-}
+@media (max-width: 1000px) {}
 
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
+  body {
+    margin: 0 3%;
+  }
 
-header{
-  background: none;
-}
+  header {
+    background: none;
+    /* 下記の説明　heade自体の高さを調整する */
+    min-height: 20vh;
+  }
 
-.header-img-entry-block{
-  /* width: 100%; */
-  /* 下記の説明　ブロック要素で表示させるよ */
-  display: block;
-  padding-top: 10%;
-}
+  .header-img-entry-block {
+    /* width: 100%; */
+    /* 下記の説明　ブロック要素で表示させるよ */
+    display: block;
+    padding-top: 10%;
+  }
 
-.header-entry-img{
-    width:100%;
+  .header-entry-img {
+    width: 100%;
     height: auto;
-}
+  }
 
-.career-items-img-layout{
-  width: 100%;
-}
+  .items-font {
+    text-align: left;
+    font-size: 25px;
+  }
 
+  .career-items-img-layout {
+    width: 100%;
+  }
+
+  .career-items-font {
+    font-size: 13px;
+  }
+
+  .career-items-font-second {
+    margin: 0 0;
+  }
+
+  .medium-item {}
+
+  .medium-item-fast {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .medium-item-font-fast {
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .medium-item-font-fast h2 {
+    font-size: 20px;
+  }
+
+  .medium-item-font-fast p {
+    font-size: 13px;
+  }
+
+  .medium-item-imag-fast {
+    order: 2;
+  }
+
+  .medium-item-second {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .medium-item-font-second {
+    width: 100%;
+    text-align: center;
+  }
+
+  .medium-item-font-second h2 {
+    font-size: 20px;
+  }
+
+  .medium-item-font-second p {
+    font-size: 13px;
+  }
+
+  .medium-item-img-second {}
+
+  .medium-item-third {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .medium-item-font-third {
+    width: 100%;
+    text-align: center;
+  }
+
+  .medium-item-font-third h2 {
+    font-size: 20px;
+  }
+
+  .medium-item-font-third p {
+    font-size: 13px;
+  }
+
+  .medium-item-img-third {}
+
+  .medium-item-forth {
+    display: flex;
+    /* 下記の説明　折り返して表示する */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .medium-item-font-forth {
+    width: 100%;
+    text-align: center;
+  }
+
+  .medium-item-font-forth h2 {
+    font-size: 20px;
+  }
+
+  .medium-item-font-forth p {
+    font-size: 13px;
+  }
+
+  .medium-item-img-forth {}
+
+  .service-items {
+    text-align: left;
+    margin: 0 3%;
+  }
+
+  .service-items h1 {
+    font-size: 25px;
+  }
+
+  .service-items p {
+    font-size: 13px;
+  }
+
+  table td, table th {
+    /* 下記の説明　テーブルレイアウトを横に表示させる処理 */
+    display: block;
+  }
+
+  .service-items-table-layout {
+    margin: 0;
+  }
+
+  .service-items-table-font {
+    width: 100%;
+  }
+
+  .service-items-table-input {
+    width: 100%;
+  }
+
+  .service-items-table-input-name {
+    width: 30%;
+  }
+
+  .service-items-table-input-m {
+    width: 100%;
+  }
+
+  .service-items-table-input-tell {
+    width: 80%;
+  }
 }
