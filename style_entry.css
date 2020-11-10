@@ -16,6 +16,10 @@ header {
   margin-top: 5%;
 }
 
+.header-img-entry-block{
+  display: none;
+}
+
 .career-items {
   text-align: center;
   padding-top: 5%;

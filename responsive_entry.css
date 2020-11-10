@@ -6,4 +6,24 @@
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
 
+header{
+  background: none;
+}
+
+.header-img-entry-block{
+  /* width: 100%; */
+  /* 下記の説明　ブロック要素で表示させるよ */
+  display: block;
+  padding-top: 10%;
+}
+
+.header-entry-img{
+    width:100%;
+    height: auto;
+}
+
+.career-items-img-layout{
+  width: 100%;
+}
+
 }
