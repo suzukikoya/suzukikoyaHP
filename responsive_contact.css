@@ -1,0 +1,46 @@
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {}
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+  body {
+    margin: 0 3%;
+  }
+  header{
+    background: none;
+    /* 下記の説明　heade自体の高さを調整する */
+    min-height: 20vh;
+  }
+
+
+
+  .header-img-contact-block {
+    /* width: 100%; */
+    /* 下記の説明　ブロック要素で表示させるよ */
+    display: block;
+    padding-top: 10%;
+  }
+
+.header-contact-img{
+  width: 100%;
+  height: auto;
+}
+
+.contact-item{
+margin:0;
+}
+
+.contact-item-font-h1{
+  font-size:13px ;
+}
+
+.contact-item-font-p{
+  font-size:13px ;
+}
+
+/* 下記の説明　responsive_entry.cssに記載しているが、contact.cssで指定し直している?? */
+.service-items-table-input-name{
+
+}
+
+}

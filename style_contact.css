@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("./contact_img/catch_contact.jpg");
+}
+
+.contact-item {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.contact-items-hr {
+  width: 5%;
+  margin-left: 0%;
+}
+
+.service-items-table-input-name {
+  width: 20%;
+}
+
+.service-items-table-input-postalcode {
+  width: 10%;
+  height: 30px;
+}
+
+.service-items-table-input-streetaddress {
+  width: 30%;
+  height: 25px;
+}
+
+.service-items-table-textarea {
+  width: 75%;
+  text-align: left;
+}
+
+textarea {
+  resize: none;
+  width:80%;
+  height:150px;
+}
+
+.submitbtn-layout {
+  margin-bottom: 10%;
+}
