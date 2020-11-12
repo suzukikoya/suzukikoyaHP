@@ -40,7 +40,20 @@ margin:0;
 
 /* 下記の説明　responsive_entry.cssに記載しているが、contact.cssで指定し直している?? */
 .service-items-table-input-name{
+width: 40%;
+}
 
+.service-items-table-input-postalcode{
+  width: 30%;
+}
+
+.service-items-table-input-streetaddress{
+  width: 100%;
+}
+
+textarea{
+  /* 下記の説明　px表示でなければしっかり表示されない */
+  width: 200px;
 }
 
 }
