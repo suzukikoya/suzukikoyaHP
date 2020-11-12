@@ -3,6 +3,7 @@
 
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
+
   header {
     /* 下記の説明　単位重要 */
     min-height: 60vh;
@@ -220,7 +221,6 @@
   .rakugaki-font-layout {
     /* 下記の説明　並び順の変更 */
     order: 2;
-    padding-left: 100px;
   }
 
   .rakugaki-video-layout {
@@ -244,7 +244,6 @@
 
   .jankenn-font-layout {
     order: 2;
-    padding-left: 100px;
   }
 
   .jankenn-video-layout {
