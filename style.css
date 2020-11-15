@@ -223,6 +223,11 @@ header {
 
 .table-layout-size{
   width: 90%;
+  margin:0 auto;
+}
+
+table {
+  border-collapse: collapse;
 }
 
 tr {
@@ -236,10 +241,6 @@ th {
 /* 下記の説明　テーブルレイアウト下線のみを引いて全て消す */
 table, td, th {
   border-bottom: 1px solid black;
-}
-
-table {
-  border-collapse: collapse;
 }
 
 .member-name-hr {
