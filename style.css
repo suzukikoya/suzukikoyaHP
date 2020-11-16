@@ -255,6 +255,7 @@ th {
 
 .member-name-hr {
   width: 10%;
+  border-color: red;
 }
 
 .member {
@@ -273,6 +274,12 @@ th {
 }
 
 .portfolio {}
+
+.portfolio-hr{
+  margin: 0 auto;
+  width: 80%;
+  border-color: red;
+}
 
 .portfolio h1, h2 {
   font-family: fantasy;
