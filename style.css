@@ -8,21 +8,21 @@ body {
 
 header {
   /* 下記の説明 空の要素なので、高さの定義が必要です。 */
-  /* 下記の説明　最低の高さがここまでだよ */
+  /* 下記の説明 最低の高さがここまでだよ */
   /* min-height: 50vh; */
   min-height: 100vh;
   /* height: 1000px; */
   background-image: url("./img/mainimage_sp.jpg");
-  /* 下記の説明　▼描画領域全体を覆い尽くすまで拡大・縮小させる場合 */
+  /* 下記の説明 ▼描画領域全体を覆い尽くすまで拡大・縮小させる場合 */
   background-size: cover;
 }
 
 
 .header-flexbox {
   display: flex;
-  /* 下記の説明　スペースを等間隔に並べる */
+  /* 下記の説明 スペースを等間隔に並べる */
   justify-content: space-between;
-  /* 下記の説明　feaderを固定する　上部に余白ができるのでpaddinngとmarginを修正する */
+  /* 下記の説明 feaderを固定する 上部に余白ができるのでpaddinngとmarginを修正する */
   position: fixed;
   width: 100%;
   top: 0px;
@@ -34,19 +34,19 @@ header {
   margin-top: 10px;
 }
 
-/* 下記の説明　スマホ用のハンバーガーメニューの「アイコン」を非表示にする */
+/* 下記の説明 スマホ用のハンバーガーメニューの「アイコン」を非表示にする */
 .menu-btn{
   display: none;
 }
 
-/* 下記の説明　スマホ用のハンバーガーメニューを非表示にする */
+/* 下記の説明 スマホ用のハンバーガーメニューを非表示にする */
 .menu{
   display: none;
 }
 
-/* ※下記の説明　liの要素の場所の移動をするには下記で指定する */
+/* ※下記の説明 liの要素の場所の移動をするには下記で指定する */
 .header-list {
-  /* 下記の説明　文字を太くする */
+  /* 下記の説明 文字を太くする */
   font-weight: bold;
   font-size: 15px;
   display: flex;
@@ -60,13 +60,13 @@ header {
 }
 
 .header-img-block{
-  /* 下記の説明　表示させないよ */
+  /* 下記の説明 表示させないよ */
   display: none;
 }
 
 .header-font {
   text-align: left;
-  /* 下記の説明　hederを固定する時に無駄な余白を削除できた */
+  /* 下記の説明 hederを固定する時に無駄な余白を削除できた */
   padding-top: 20%;
   margin-left: 10%;
 }
@@ -223,24 +223,34 @@ header {
 
 .table-layout-size{
   width: 90%;
+  /* 下記の説明 テーブルレイアウトそのものを中央に寄せる */
   margin:0 auto;
 }
 
+table, th, td {
+  /* 線の種類 太さ 色 */
+  /* border: solid 1px #333; */
+  border: none;
+}
+
 table {
+  /* 下記の説明 隣接するボーダーラインを重ね合わせて表示する指定 */
   border-collapse: collapse;
+  /* 下記の説明 table全体にどのように枠線を表示させるか border-bottomで全体のした線 */
+  border: 1px solid black;
 }
 
 tr {
   height: 50px;
+  text-align: left;
 }
 
 th {
   padding-left: 3%;
 }
 
-/* 下記の説明　テーブルレイアウト下線のみを引いて全て消す */
-table, td, th {
-  border-bottom: 1px solid black;
+.about-tr-backgroundcolor{
+  background-color:#EEEEEE;
 }
 
 .member-name-hr {
