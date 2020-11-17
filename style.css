@@ -273,6 +273,10 @@ th {
   border-radius: 130px;
 }
 
+.member-name-font-size{
+  font-size: 30px;
+}
+
 .portfolio {}
 
 .portfolio-hr{
