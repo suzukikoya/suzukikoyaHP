@@ -253,6 +253,10 @@ th {
   background-color:#EEEEEE;
 }
 
+.medium-item-opacity{
+  opacity: 0.5;
+}
+
 .member-name-hr {
   width: 10%;
   border-color: red;
@@ -261,10 +265,6 @@ th {
 .member {
   text-align: center;
   padding-top: 10%;
-}
-
-.member h5 {
-  opacity: 0.5;
 }
 
 .member-img {
@@ -364,8 +364,9 @@ video {
   padding-top: 10%;
 }
 
-.access h5 {
-  opacity: 0.5;
+iframe{
+  width:100%;
+  height: 450px;
 }
 
 .map-font {
@@ -386,10 +387,6 @@ video {
 
 .news-font {
 
-}
-
-.news h5 {
-  opacity: 0.5;
 }
 
 footer {
